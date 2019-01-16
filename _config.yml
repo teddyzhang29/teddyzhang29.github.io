@@ -1,0 +1,21 @@
+# Site settings
+title: teddyzhang29
+header-img: img/mc-title.jpg
+email: teddyzhang29@gmail.com
+description: "有意瞄准，无意击发"
+baseurl: ""
+url: ""
+github_username:  teddyzhang29
+port: 4000
+# Build settings
+markdown: kramdown
+highlighter: rouge
+#pygments
+permalink: /:title
+gems: [jekyll-paginate]
+paginate_path: "page:num"
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

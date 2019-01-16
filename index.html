@@ -1,0 +1,39 @@
+---
+layout: page
+header-img: "img/header/index.jpg"
+title: "Teddy's blog"
+description: "Baby Steps to Giant Strides"
+---
+
+{% for post in paginator.posts %}
+<div class="post-preview">
+    <a href="{% if post.redirect %}{{ post.redirect | prepend: site.baseurl }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+        <h2 class="post-title">
+            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+    </a>
+    <p class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</p>
+</div>
+<hr>
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+    {% if paginator.previous_page %}
+    <li class="previous">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 新的文档</a>
+    </li>
+    {% endif %}
+    {% if paginator.next_page %}
+    <li class="next">
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">旧的文档 &rarr;</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}
