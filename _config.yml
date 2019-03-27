@@ -1,6 +1,6 @@
 # Site settings
 title: teddyzhang29
-header-img: img/mc-title.jpg
+header-img: img/header/index.jpg
 email: teddyzhang29@gmail.com
 description: "有意瞄准，无意击发"
 baseurl: ""
@@ -16,6 +16,16 @@ gems: [jekyll-paginate]
 paginate_path: "page:num"
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: b01b25ef485fb33917b9                            #生成的clientID
+  clientSecret: 7737058900ddef0b581020bf5d057e9d39266091    #生成的clientSecret
+  repo: teddyzhang29.github.io    #仓库名称
+  owner: teddyzhang29    #github用户名
+  admin: teddyzhang29
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]

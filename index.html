@@ -37,25 +37,3 @@ description: "Baby Steps to Giant Strides"
     {% endif %}
 </ul>
 {% endif %}
-
-<!-- Gitalk 评论 start  -->
-{% if site.gitalk.enable %}
-<!-- Link Gitalk 的支持文件  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-
-<div id="gitalk-container"></div>
-<script type="text/javascript">
-    var gitalk = new Gitalk({
-    // gitalk的主要参数
-        clientID: 'b01b25ef485fb33917b9',
-        clientSecret: '7737058900ddef0b581020bf5d057e9d39266091',
-        repo: 'teddyzhang29.github.io',
-        owner: 'teddyzhang29',
-        admin: ['teddyzhang29'],
-        //id: 'index',
-    });
-    gitalk.render('gitalk-container');
-</script>
-{% endif %}
-<!-- Gitalk end -->
