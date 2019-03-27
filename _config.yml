@@ -25,7 +25,7 @@ gitalk:
   repo: teddyzhang29.github.io    #仓库名称
   owner: teddyzhang29    #github用户名
   admin: teddyzhang29
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: false #是否启用类似FB的阴影遮罩
 
 redcarpet:
   extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
