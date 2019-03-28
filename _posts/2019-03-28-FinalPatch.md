@@ -12,8 +12,6 @@ header-img: "img/header/final_patch.jpg"
 
 欢迎大家使用. 有任何问题可以在这里留言或者给我发[邮件](mailto:teddyzhang29@gmail.com).
 
-{% youtube YyWIvOKTmSQ %}
-
 ---
 
 **中文文档**
