@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "FinalPatch - 手册"
+title: "FinalPatch - 文档"
+subtitle: "Unity热更新插件"
+description: "使用FinalPatch可以简单,高效的帮助开发者完成游戏热更新功能"
 tags: [Unity,AssetStore,Plugin,HotUpdate]
 category: "FinalPatch"
 header-img: "img/header/final_patch.jpg"
@@ -9,7 +11,7 @@ hide: true
 
 <!-- TOC -->
 
-- [FinalPatch - 手册](#finalpatch---手册)
+- [FinalPatch - 文档](#finalpatch---文档)
     - [1. 打包](#1-打包)
         - [1.1 新增版本](#11-新增版本)
         - [1.2 在文件夹中打开](#12-在文件夹中打开)
@@ -35,7 +37,7 @@ hide: true
 
 <!-- /TOC -->
 
-# FinalPatch - 手册
+# FinalPatch - 文档
 
 ## 1. 打包
 ![build_tab_introduction][build_tab]

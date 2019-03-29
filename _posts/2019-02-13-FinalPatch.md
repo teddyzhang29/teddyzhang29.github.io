@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "FinalPatch - Unity热更新插件"
+title: "FinalPatch"
+subtitle: "Unity热更新插件"
+description: "使用FinalPatch可以简单,高效的帮助开发者完成游戏热更新功能"
 tags: [Unity,AssetStore,Plugin,HotUpdate]
 category: "FinalPatch"
 header-img: "img/header/final_patch.jpg"
@@ -17,7 +19,7 @@ header-img: "img/header/final_patch.jpg"
 **中文文档**
 
 * [入门](https://teddyzhang29.github.io/FinalPatch_GettingStarted_zh)
-* [手册](https://teddyzhang29.github.io/FinalPatch_Doc_zh)
+* [文档](https://teddyzhang29.github.io/FinalPatch_Doc_zh)
 
 **English Documentation**
 * [Getting Started](https://teddyzhang29.github.io/FinalPatch_GettingStarted_eng)

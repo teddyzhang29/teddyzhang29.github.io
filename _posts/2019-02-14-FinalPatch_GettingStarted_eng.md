@@ -1,6 +1,8 @@
 ---
 layout: post
-title: "FinalPatch - GettingStarted"
+title: "FinalPatch - Getting Started"
+subtitle: "For Unity Hot Update"
+description: "使用FinalPatch可以简单,高效的帮助开发者完成游戏热更新功能"
 tags: [Unity,AssetStore,Plugin,HotUpdate]
 category: "FinalPatch"
 header-img: "img/header/final_patch.jpg"

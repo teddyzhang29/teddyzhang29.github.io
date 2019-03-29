@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "3D人物换装"
+description: "Unity动态合并网格和贴图, 实现3D Avatar功能."
 tags: [Unity]
 ---
 
