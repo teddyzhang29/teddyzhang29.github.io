@@ -82,3 +82,16 @@ var _hmt = _hmt || [];
     ga('send', 'pageview');
 </script>
 {% endif %}
+
+<!--百度统计-->
+{% if site.bd_tongji_id %}
+<script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?{{ site.bd_tongji_id }}";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+{% endif %}
