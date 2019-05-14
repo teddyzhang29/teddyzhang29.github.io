@@ -17,6 +17,7 @@ ExcelLENT的几个主要功能是:
 3. 类型丰富. 支持基本类型, 另外支持列表和自定义类型, 分别对应List和Class. 列表和自定义类型之间可以任意结构,任意层次的嵌套.  
 4. 支持设置查询主键. 可以根据主键自动生成对应的查询代码, 方便各种情况的查询需求.
 
+---
 
-[中文文档](https://teddyzhang29.github.io/excellent_doc_zh)  
+[中文文档](https://teddyzhang29.github.io/excellent_doc_zh)   
 [English Manual](https://teddyzhang29.github.io/excellent_doc_eng)
